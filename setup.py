@@ -28,6 +28,7 @@ setup(
             "upload-artifacts=operatorcert.entrypoints.upload_artifacts:main",
             "download-test-results=operatorcert.entrypoints.download_test_results:main",
             "reserve-operator-name=operatorcert.entrypoints.reserve_operator_name:main",
+            "link-pull-request=operatorcert.entrypoints.link_pull_request:main",
         ],
     },
 )
